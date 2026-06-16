@@ -21,7 +21,7 @@
       name: "KnowledgeSearch",
       data() {
         return {
-          appPath: "http://localhost:8080",
+          appPath: process.env.API_BASE_URL,
           classes: [],
           classVal: '所有类',
           keyword: '',

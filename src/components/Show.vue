@@ -33,7 +33,7 @@
       },
       data() {
         return {
-          appPath: "http://localhost:8080",
+          appPath: process.env.API_BASE_URL,
           treeProps: {
             children: 'children',
             label: 'label',
