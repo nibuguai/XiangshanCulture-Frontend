@@ -53,7 +53,8 @@
       methods: {
         loadClasses(node, resolve) {
           if (node.level === 0) {
-            return resolve([{ label: '香山文化', leaf: false }]);
+            console.log('节点为返回香山获取类根节点');
+            return resolve([{ label: '北京红色革命', leaf: false }]);
           } else if (node.level === 1) {
             // 获取类根节点
             this.$ajax.get(this.appPath + '/getRootClasses')

@@ -4,7 +4,7 @@
     <div class="nav">
 
       <div class="navLogo">
-        <img src="~static/images/logo.png" />
+        <img src="~static/images/天坛.png" />
       </div>
 
       <div class="navItem">
@@ -93,7 +93,8 @@
   }
 
   .navLogo img {
-    height: inherit;
+    height: 100px;
+    margin-top: -10px;
   }
 
   .navItem {
