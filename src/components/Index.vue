@@ -3,13 +3,15 @@
 
     <div class="indexIntro">
       <div class="introContent">
-        <h1>香山文化</h1>
+        <h1>北京香山红色文化</h1>
         <p>
-          香山文化在地缘上是指包括今天的中山、珠海、澳门<br>
-          在内的地域文化。它在本质上集中体现了岭南文化中<br>
-          广府文化的文化特征，是中原文化、土著文化、西洋<br>
-          文化、南洋文化相互碰撞和不断融合的产物，是相对<br>
-          岭南文化而言的子文化，是岭南文化的重要组成部分。
+          北京香山红色文化是以香山革命纪念地为核心的<br>
+          特色红色地域文化，是京华文脉与革命文脉交融<br>
+          升华形成的红色文化分支，也是新中国奠基文化的<br>
+          重要组成部分。1949年中共中央进驻香山，于此擘<br>
+          画建国蓝图、开启全新征程，孕育了伟大的赶考精<br>
+          神，是传承红色基因、开展党史与爱国主义教育的<br>
+          重要红色阵地。
         </p>
       </div>
     </div>
@@ -35,10 +37,10 @@
 
     <div v-if="isLogin" class="logout">
       <div class="logoutTitle">
-        <h1>CAVINNN</h1>
+        <h1>香山红色文化</h1>
       </div>
       <div class="logoutContent">
-        你好！<br>欢迎使用香山文化知识图谱系统
+        你好！<br>欢迎使用北京香山红色文化知识图谱系统
       </div>
       <div class="logoutButt">
         <el-button type="warning" @click="userLogout">注销</el-button>
@@ -232,14 +234,14 @@
 
   .index {
     margin: 0 auto;
-    width: 1364px;
+    width: 100%;
     height: 780px;
   }
 
   .indexIntro {
     float: left;
     position: relative;
-    top: 160px;
+    top: 100px;
     left: 150px;
     border-radius: 10px;
     width: 600px;
@@ -274,7 +276,7 @@
   .login {
     float: left;
     position: relative;
-    top: 160px;
+    top: 100px;
     left: 200px;
     border-radius: 10px;
     background-color: rgba(0,0,0,0.7);
@@ -333,7 +335,7 @@
   .logout {
     float: left;
     position: relative;
-    top: 160px;
+    top: 100px;
     left: 200px;
     border-radius: 10px;
     background-color: rgba(0,0,0,0.7);

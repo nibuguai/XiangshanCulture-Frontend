@@ -461,7 +461,7 @@
 
   .search {
     margin: 20px auto 0 auto;
-    width: 1364px;
+    width: 100%;
     height: 760px;
     border: 0 solid blue;
   }

@@ -70,8 +70,8 @@
 
   html, body {
     margin: 0;
-    background: url("~static/images/background1.jpg") no-repeat;
-    background-size: 1920px 1080px;
+    background: url("~static/images/background_red.jpg") no-repeat;
+    background-size: cover;
     font-family: myFont, sans-serif;
   }
 

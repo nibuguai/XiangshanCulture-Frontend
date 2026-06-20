@@ -4,7 +4,7 @@
     <div class="nav">
 
       <div class="navLogo">
-        <img src="~static/images/天坛.png" />
+        <img src="~static/images/new-logo.png" />
       </div>
 
       <div class="navItem">
@@ -35,22 +35,19 @@
           {
             name: '图谱展示',
             path: '/show'
-          },
-          {
-            name: '知识检索',
-            path: '/search/knowledgeSearch'
-          },
-          {
-            name: '关系检索',
-            path: '/search/relationSearch'
-          },
-          {
-            name: '属性检索',
-            path: '/search/attributeSearch'
           }
+          // 后续开发暂时隐藏
           // {
-          //   name: '时空检索',
-          //   path: '/search/timeSpaceSearch'
+          //   name: '知识检索',
+          //   path: '/search/knowledgeSearch'
+          // },
+          // {
+          //   name: '关系检索',
+          //   path: '/search/relationSearch'
+          // },
+          // {
+          //   name: '属性检索',
+          //   path: '/search/attributeSearch'
           // }
         ],
         indexItems: [
@@ -75,7 +72,7 @@
 <style scoped>
 
   .header {
-    width: 1364px;
+    width: 100%;
     height: 80px;
     margin: 20px auto 0px auto;
     border-bottom: 2px solid white;
@@ -93,8 +90,8 @@
   }
 
   .navLogo img {
-    height: 100px;
-    margin-top: -10px;
+    height: 60px;
+    margin-top: 10px;
   }
 
   .navItem {
